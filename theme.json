@@ -1,0 +1,19 @@
+{
+  "id": "fxa-button-to-app-menu",
+  "author": "DreamOneX",
+  "name": "FxAButtontoAppMenu",
+  "description": "no",
+  "version": "1.0.0",
+  "homepage": "https://github.com/DreamOneX/fxa-button-to-app-menu",
+  "createdAt": "2026-01-28",
+  "updatedAt": "2026-01-28",
+  "scripts": {
+    "fxa-to-app-menu.uc.js": {
+      "include": ["chrome://browser/content/browser.xhtml"],
+      "loadOrder": 10,
+      "name": "FxA Menu",
+      "description": "Do something"
+    }
+  },
+  "tags": ["JavaScript"]
+}
